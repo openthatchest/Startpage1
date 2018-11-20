@@ -8,3 +8,39 @@ div {
   width: 200px;
   height: 200px;
 }
+    .bing {
+        background: #fff url('http://i1.social.s-msft.com/contentservice/9ee792ce-28e5-4ad3-b985-9d7e002bf6a5/bing2.png') 0 0 no-repeat;
+    }
+ 
+ 
+    .bing {
+        margin-right: 4px;
+        background: #fff url('http://i1.social.s-msft.com/contentservice/9fcdc46d-264e-42ba-9916-9d6501354f31/bing.png') 0 0 no-repeat;
+        display: inline-block;
+        height: 22px;
+        overflow: hidden;
+        width: 47px;
+        text-align: right;
+    }
+ 
+ 
+.SearchButton {
+    background: #fff url('bing.ico') 0 35 no-repeat;
+    display: inline-block;
+    border-width: 0px;
+    cursor: pointer;
+    height: 21px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    width: 21px;
+    text-align: right;
+    }
+.center {
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 200;
+  left: 0;
+  width: 200px;
+  height: 200px;
