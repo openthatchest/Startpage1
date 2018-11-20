@@ -15,18 +15,18 @@ function drawFace(ctx, radius) {
   var grad;
   ctx.beginPath();
   ctx.arc(0, 0, radius, 0, 2*Math.PI);
-  ctx.fillStyle = 'white';
+  ctx.fillStyle = '#DAE0E2';
   ctx.fill();
   grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-  grad.addColorStop(0, '#333');
-  grad.addColorStop(0.5, 'white');
-  grad.addColorStop(1, '#333');
+  grad.addColorStop(0, '#2C3335');
+  grad.addColorStop(0.5, '#2C3335');
+  grad.addColorStop(1, '#2C3335');
   ctx.strokeStyle = grad;
   ctx.lineWidth = radius*0.1;
   ctx.stroke();
   ctx.beginPath();
   ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
-  ctx.fillStyle = '#333';
+  ctx.fillStyle = '#2C3335';
   ctx.fill();
 }
 
